@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "test.h"
 
 
 int main(){
@@ -7,6 +8,7 @@ int main(){
 
     printf("Hello back");
 
+    functionTest();
 
     return 0;
 }
